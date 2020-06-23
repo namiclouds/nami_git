@@ -1,0 +1,9 @@
+<aura:component  controller='AWSFileUploadController' implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+<aura:attribute name='attachmnetlist' type='List' /> 
+your images will appear here 
+
+<aura:handler name='init' value="{!this}" action="{!c.doInit}" />      
+ <aura:iteration items="{!v.attachmnetlist}" var="item">
+    <img src="{!item.img}" alt="{!item.alt}" />
+</aura:iteration>
+</aura:component>	
