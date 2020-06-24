@@ -5,6 +5,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "CodeLens (Launch) - EncapTest",
+      "request": "launch",
+      "mainClass": "EncapTest",
+      "projectName": "nami_Sfdc_e030ce39"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Student1",
+      "request": "launch",
+      "mainClass": "Student1",
+      "projectName": "nami_Sfdc_e030ce39"
+    },
+    {
       "name": "Launch Apex Replay Debugger",
       "type": "apex-replay",
       "request": "launch",
